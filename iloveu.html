@@ -9,9 +9,20 @@
 </head>
 
 <body>
-    <audio autoplay="autoplay" loop="loop" preload="auto"
-            src="http://music.163.com/song/media/outer/url?id=1337065812.mp3">
-    </audio>
+    <audio id="bgmusic" src="http://music.163.com/song/media/outer/url?id=1851244378.mp3" autoplay="autoplay" loop="loop" style="display: block; width: 3%; height:3%;"></audio>
+    <script type="text/javascript">
+    function toggleSound() {
+            var music = document.getElementById("bgmusic");//获取ID
+                console.log(music);
+                console.log(music.paused);
+            if (music.paused) { //判读是否播放
+                music.paused=false;
+                music.play(); //没有就播放
+            }
+
+        }
+    setInterval("toggleSound()",1);
+    </script>
     <div id="back">
         <div class="mask"></div>
         <!-- 设置展示的图片，github pages不能有后台程序只能一条一条手动添加了 囧 -->
