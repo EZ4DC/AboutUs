@@ -1,4 +1,4 @@
-LoveRecord
-Love Record 一个照片轮播的动画网站，纪录了我们在一起的时间。
+AboutUs
+About Us 一个照片轮播的动画网站，纪录了我们的过去、现在和未来。
 
-[点此，查看我们的记忆](https://ez4dc.github.io/iloveu.html) 
+[点击这里，过去](https://ez4dc.github.io/AboutUs/iloveu.html) 
