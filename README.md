@@ -1,6 +1,6 @@
 AboutUs
 
-About Us 一个简易动画网站，纪录过去、现在和未来。
+一个简易动画网站，纪录过去、现在和未来。
 
 [过去](https://ez4dc.github.io/AboutUs/iloveu.html) 
 
